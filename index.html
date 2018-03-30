@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYT Search</title>
+
+    <!-- CDNS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- FontAwesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <style>
+        .bannerhead {
+            color: #fff;
+            background: #414156;
+            text-align: center;
+            padding: 120px 0;
+        }
+        .bannerhead svg, .search-panel .panel-heading svg {
+            margin-right: 4px;
+        }
+        .bannerhead a {
+            text-decoration: none !important;
+            color: #fff !important;
+        }
+        .search-panel {
+            border-color: #414155;
+        }
+
+        .search-panel .panel-heading {
+            background: #414155;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .search-panel .submit-button {
+            background: #414156;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron bannerhead">
+            <h1><a href="#"><i class="far fa-newspaper"></i> New York Times Search</a></h1>
+        </div>
+
+        <div class="panel panel-default search-panel">
+            <div class="panel-heading">
+                <h3 class="panel-title"><i class="far fa-list-alt"></i> Search Parameters</h3>
+            </div>
+            <div class="panel-body">
+                <div class="row bio">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputName1">Search Term</label>
+                                <input type="text" class="form-control" placeholder="Enter your search term...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName1">Search Term</label>
+                                <input type="text" class="form-control" placeholder="Enter your search term...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputName1">Search Term</label>
+                                <input type="text" class="form-control" placeholder="Enter your search term...">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>

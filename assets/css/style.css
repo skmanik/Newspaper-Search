@@ -1,0 +1,26 @@
+.bannerhead {
+    color: #fff;
+    background: #414156;
+    text-align: center;
+    padding: 120px 0;
+}
+.bannerhead svg, .search-panel .panel-heading svg {
+    margin-right: 4px;
+}
+.bannerhead a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.search-panel {
+    border-color: #414155;
+}
+
+.search-panel .panel-heading {
+    background: #414155;
+    color: #fff;
+    padding: 20px;
+}
+
+.search-panel .submit-button {
+    background: #414156;
+}

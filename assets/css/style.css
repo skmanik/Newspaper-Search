@@ -21,6 +21,7 @@
     padding: 20px;
 }
 
-.search-panel .submit-button {
+.search-panel .submit-button,
+.search-panel .results-button {
     background: #414156;
 }
